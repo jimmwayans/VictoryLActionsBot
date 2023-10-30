@@ -46,7 +46,7 @@ composer.on("chat_join_request", async (ctx) => {
     return;
   }
 
-  welcome += "\n\n<b>VictoryLines - Betway Official Partner</b>";
+  welcome += "\n\n𝗩𝗶𝗰𝘁𝗼𝗿𝘆𝗟𝗶𝗻𝗲𝘀 - 𝗕𝗲𝘁𝘄𝗮𝘆 𝗢𝗳𝗳𝗶𝗰𝗶𝗮𝗹 𝗣𝗮𝗿𝘁𝗻𝗲𝗿";
   welcome = welcome.replace("{name}", update.from.first_name).replace(
     "{chat}",
     update.chat.title,
